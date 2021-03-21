@@ -1,0 +1,288 @@
+ 
+    *
+    {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    }
+    *,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    :focus,:active{outline:thistle;}
+    a:focus,a:active{outline: white;}
+    
+    nav,footer,header,aside{display: block;}
+    
+    html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    }
+    input,button,textarea{font-family:inherit;}
+    
+    input::-ms-clear{display: none;}
+    button{cursor: pointer;}
+    button::-moz-focus-inner {padding:0;border:0;}
+    a, a:visited{text-decoration: none;}
+    a:hover{text-decoration: none;}
+    ul li{list-style: none;}
+    img{vertical-align: top;}
+    ul li{
+    margin:0;
+    padding:0;
+    display:block;
+    }
+.container_Alesya{
+    max-width: 1630;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+body
+{
+
+    background: url('images/старая\ бумага.jpg') repeat;
+     
+       background-size: cover;
+        height: 100%;
+        width: 90%;
+        position: absolute;
+     
+    }
+    .page0_Alesya{
+margin-left:-7%;
+    }
+    
+
+.start_Alesya{ font-family: 'Bad Script', cursive;
+    font-size: 38px;
+    line-height :70,96px;
+letter-spacing: 15%;
+
+padding-Top: 4%;
+margin-bottom: 2%;
+padding-Left: 21%;
+padding-right: 5%;
+
+}
+
+.start_Alesya{
+    animation-duration: 4s;
+    animation-name: fadeInDown;
+  }
+  
+  @keyframes fadeInDown{
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+
+
+  .img_Alesya{
+    animation-duration: 4s;
+    animation-name: rotateInDownLeft
+    ;
+    animation-delay: 3s;
+
+    }
+    
+    @keyframes rotateInDownLeft
+    {
+    from{
+    margin-left: 100%;
+    width: 300%;
+    }
+    
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+    }
+    .img2_Alesya{
+    animation-duration: 4s;
+    animation-name: rotateInDownRight
+    ;
+    animation-delay: 3s;
+    }
+    
+    @keyframes rotateInDownRight
+    {
+    from{
+    margin-left: 100%;
+    width: 300%;
+    }
+    
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+    }
+    .img3_Alesya{
+    animation-duration: 4s;
+    animation-name: rotateInDownLeft
+    ;
+    animation-delay: 3s;
+    }
+    
+    @keyframes rotateInDownLeft
+    {
+    from{
+    margin-left: 100%;
+    width: 300%;
+    }
+    
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+    }
+
+.text1_Alesya{
+    font-family: 'Bad Script', cursive;
+    font-size: 38px;
+
+width: 90%;
+    line-height: 45px; 
+    letter-spacing: 50%;
+    padding-left: 21%;
+padding-right: 13%;
+margin-top: 4%;
+
+
+} 
+
+.text1_Alesya{
+    animation-duration: 4s;
+    animation-name: fadeInDown;
+  }
+  
+  @keyframes fadeInDown{
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+   
+.text2_Alesya{font-size: 31px; font-family: 'Bad Script', cursive;
+    width: 20%;
+    line-height :45px;
+    letter-spacing: 15%;
+    margin-Left: 65%;
+margin-top: 11%;
+
+}
+.text2_Alesya{
+    animation-duration: 4s;
+    animation-name: fadeInDown;
+  }
+  
+  @keyframes fadeInDown{
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+.text3_Alesya{font-size: 31px;font-family: 'Bad Script', cursive;
+
+    line-height: 45px; 
+    letter-spacing:15%;
+    Width: 37%;
+height:235px;
+padding-Left: 18%;
+padding-right: 5%;
+ margin-top: 17%; 
+margin-bottom: 11%;
+}
+.text3_Alesya{
+    animation-duration: 4s;
+    animation-name: fadeInDown;
+  }
+  
+  @keyframes fadeInDown{
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.text4_Alesya{
+    font-size: 31px;font-family: 'Bad Script', cursive;
+
+ margin-top: 2%;
+    margin-Left:56%;
+padding-right: 6%;
+Width: 25%;
+
+line-height: 45px; 
+letter-spacing: 15%;
+}
+.text4_Alesya{
+    animation-duration: 4s;
+    animation-name: fadeInDown;
+  }
+  
+  @keyframes fadeInDown{
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.img_Alesya{
+    position: absolute;
+margin-left: 10%;
+ height: 550px;
+ width: 770px;
+  margin-top:1%; 
+}
+.img2_Alesya{
+    position: absolute;
+    margin-left: 60%;
+     margin-top: 9%; 
+    height: 490px;
+    width: 650px;
+}
+.img3_Alesya{
+    position: absolute;
+     margin-top: -9%; 
+    margin-left: 69px;
+    height: 450px;
+    width: 850px;
+}
